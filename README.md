@@ -18,19 +18,18 @@ The `index.html` and **jQuery** files have already been created and the **jQuery
 ### Functionality Requirements
 
 1. Clicking on the **Add Task** button
-    - create a task object (`{}`) with two properties;
-        - `name` - to store the text entered in the input (string value)
-        - `completed` - to store the completed status (boolean value)
-    - `completed` property should be set initially to `false`
-    - the task object should be added to an array of tasks
-    - the input should be cleared out
-    - render list of tasks to the page
+   - create a task object (`{}`) with two properties;
+     - `name` - to store the text entered in the input (string value)
+     - `completed` - to store the completed status (boolean value)
+   - `completed` property should be set initially to `false`
+   - the task object should be added to an array of tasks
+   - the input should be cleared out
+   - render list of tasks to the page
 1. Clicking on the **Complete** button for a task
-    - toggles the boolean value of that particular task's `completed` property to the opposite of what it currently is
-        - if `completed` property is `true` change the value to `false`
-        - if `completed` property is `false` change the value to `true`
-    - render list of tasks to the page
-
+   - toggles the boolean value of that particular task's `completed` property to the opposite of what it currently is
+     - if `completed` property is `true` change the value to `false`
+     - if `completed` property is `false` change the value to `true`
+   - render list of tasks to the page
 
 ### Rendering List of Tasks to the Page
 
