@@ -35,16 +35,14 @@ function render() {
     let individualTask = tasks[i];
 
     if (individualTask.taskComplete === true) {
-      $(".todo_list")
-        .append(
-          `<li>` +
-            individualTask.newTask +
-            `<button class="finish_task" type="button" data-index="${i}">Complete</button>`
-        )
-        .css("text-decoration", "line-through");
+      $(".todo_list").append(
+        `<li class="true">` +
+          individualTask.newTask +
+          `<button class="finish_task" type="button" data-index="${i}">Complete</button>`
+      );
     } else {
       $(".todo_list").append(
-        `<li>` +
+        `<li class="false">` +
           individualTask.newTask +
           `<button class="finish_task" type="button" data-index="${i}">Complete</button>`
       );
